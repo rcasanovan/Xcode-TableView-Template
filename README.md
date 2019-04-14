@@ -2,6 +2,10 @@
 
 This template allows you to create a tableview using VIPER architecture and a view model for the data injection
 
+## VIPER References:
+* [Viper architecture](https://www.objc.io/issues/13-architecture/viper/)
+* [Viper for iOS](https://medium.com/@smalam119/viper-design-pattern-for-ios-application-development-7a9703902af6)
+
 ## How does it work?
 
 * Download or clone this repository.
