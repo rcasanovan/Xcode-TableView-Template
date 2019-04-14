@@ -4,6 +4,7 @@ import Foundation
 
 class ___VARIABLE_moduleName___TableViewCell: UITableViewCell {
     
+    //__ The cell identifier
     static public var identifier: String {
         return String(describing: self)
     }
@@ -20,9 +21,11 @@ class ___VARIABLE_moduleName___TableViewCell: UITableViewCell {
     
     public override func prepareForReuse() {
         super.prepareForReuse()
+        //__ Remember to clear all the fields here (image, text, etc)
     }
     
     public func bindWithViewModel(_ viewModel: ___VARIABLE_moduleName___ViewModel) {
+        //__ Implement the logic to bind the cell
     }
     
 }
@@ -31,17 +34,21 @@ class ___VARIABLE_moduleName___TableViewCell: UITableViewCell {
 extension ___VARIABLE_moduleName___TableViewCell {
     
     /**
-     * SetupViews
+     * Setup views
      */
     private func setupViews() {
+        //__ Configure your view here
+        //__ Background color, title, safe area
+        
         configureSubviews()
         addSubviews()
     }
     
     /**
-     * ConfigureSubviews
+     * Configure subviews
      */
     private func configureSubviews() {
+        //__ Configure all the subviews here
     }
     
 }
@@ -53,6 +60,9 @@ extension ___VARIABLE_moduleName___TableViewCell {
      * Add subviews
      */
     private func addSubviews() {
+        //__ Add all the subviews here
+        
+        //__ Configure the constraints
     }
     
 }
