@@ -65,7 +65,7 @@ extension ___VARIABLE_moduleName___ViewController {
     }
     
     /**
-     * Setup datasource for my goals table view
+     * Setup datasource for the table view
      */
     private func setupDatasource() {
         if let ___VARIABLE_moduleName___TableView = ___VARIABLE_moduleName___TableView {
